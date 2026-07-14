@@ -32,3 +32,6 @@ console.log(typeof id); // symbol
 console.log(typeof myFunction); // function
 console.log(typeof heros); // object
 console.log(typeof myObj);  // object
+
+
+
