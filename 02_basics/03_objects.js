@@ -1,5 +1,5 @@
 // singleton (apne tarah ka ek hi object)
-//object .create( constructor se bnana object ko)
+//object.create( constructor se bnana object ko)
 
 // literals se object singleton nhi bnta hai
 // constructor se object singleton bn jata hai
