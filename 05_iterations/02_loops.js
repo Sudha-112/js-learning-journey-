@@ -10,6 +10,7 @@ console.log(values);  // undefined
 
 const myNums = [1,2,3,4,5,6,7,8,9,10];
 
+// --------------filter method-------------------------
 const newNums = myNums.filter( (num) => num > 4);
 
 console.log(newNums); 
@@ -25,7 +26,7 @@ console.log(newNums);
 
 const Numbers = [1,2,3,4,5];
 
-// map method
+// -----------------map method-----------------------------
 
 // const newNums = Numbers.map( (num) => num + 10);
 // console.log(newNums);
@@ -35,7 +36,7 @@ const newNums1 = Numbers.map( (num) => num * 10 ).map( (num) => num/10 )
 
 console.log(newNums1);
 
-// reduce method
+// -------------------reduce method------------------------------
 
 const arr = [1,2,3,4];
 
