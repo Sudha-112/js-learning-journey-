@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body style="background-color: black; color: white;">
+    <ul class="language">
+        <li>Javascript</li>
+    </ul>
+</body>
+
+<script>
+
+function addLanguage(langName){
+     const li  = document.createElement('li');
+     li.innerHTML = `${langName}`; // we are doing this after traversing whole tree which is not the optimized approach
+     document.querySelector('.language').appendChild(li);
+} 
+
+//addLanguage("Cpp");  
+//addLanguage("Python");
+//addLanguage("Typescript");
+
+// optimized approach 
+function addOptiLanguage(langName){
+    const li = document.createElement('li');
+    const addText = document.createTextNode(langName);
+    li.appendChild(addText);
+    document.querySelector('.language').appendChild(li);
+
+}
+
+addOptiLanguage("cpp");
+addOptiLanguage("python");
+
+//Edit 
+
+const secondLang = document.querySelector("li:nth-child(2)");
+const newli = document.createElement('li');
+newli.textContent = "typescript";
+secondLang.replaceWith(newli);
+
+//edit
+const firstLang = document.querySelector("li:first-child");
+firstLang.outerHTML = '<li>Mojo</li>';
+
+ //remove
+
+ const lastLang = document.querySelector("li:last-child");
+ lastLang.remove();
+
+</script>
+</html>
