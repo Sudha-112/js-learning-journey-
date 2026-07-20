@@ -32,12 +32,13 @@ function validateGuess(guess) {
   } else if (guess > 100) {
     alert('Please enter a number less than 100.');
   } else {
-    prevGuess.push(guess);
+     prevGuess.push(guess);
     if (numGuess === 11) {
       cleanUpGuess(guess);
       displayMessage(`Game Over. Random number was ${randomNumber}`);
       endGame();
     } else {
+     
       cleanUpGuess(guess);
       checkGuess(guess);
     }
