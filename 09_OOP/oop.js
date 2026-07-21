@@ -8,7 +8,7 @@ const user = {
         console.log(`Username: ${this.username}`);
         console.log(this);
     }
-}
+}  
 
 // console.log(this);
 // console.log(user);
