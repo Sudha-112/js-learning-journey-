@@ -24,4 +24,4 @@ const chai = new createUser("chai", 25);
 const tea = createUser("tea", 250);
 
 console.log(chai);  // object
-chai.printMe();
+chai.printMe();  // Price is 25
