@@ -6,7 +6,7 @@ function setUsername(username){
 }
 
 function createUser(username ,email, password){
-    setUsername.call(this, username);
+    setUsername.call(this, username);  // call = helps to pass current context to the other function
 
     this.email = email;
     this.password = password;
