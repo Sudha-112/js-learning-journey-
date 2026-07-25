@@ -27,7 +27,7 @@ function loginUserMessage(username = "Sam"){
 }
 
 console.log(loginUserMessage("Sudha"));
-console.log(loginUserMessage());  // undefined just logged in
+console.log(loginUserMessage());  // sam just logged in
 
 function calculateCartPrice(val1, val2, ...num1){  // rest operator
     return num1;
