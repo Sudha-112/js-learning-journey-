@@ -2,6 +2,8 @@ const marvel_heros = ["thor", "Ironman", "spiderman"];
 const dc_heros = ["superman", "flash", "batman"];
 
 const all_heros = marvel_heros.concat(dc_heros);
+console.log(marvel_heros);
+console.log(dc_heros);
 console.log(all_heros);
 
 const all_new_heros = [...marvel_heros, ...dc_heros]; // spread operator ...
@@ -14,7 +16,7 @@ console.log(real_anotherArr);
 
 console.log(Array.isArray("Sudha"));
 console.log(Array.from("Sudha"));
-console.log(Array.from({name : "Sudha"}));  // interesting case
+console.log(Array.of({name : "Sudha"}, { age : 23}));  // interesting case
 
 let score1 = 100;
 let score2 = 200;
