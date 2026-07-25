@@ -26,9 +26,10 @@ let val1;
 // val1 = 5??10
 // val1 = null??10  // agr value null ya undefined hai to second value hi return hogi vrna vhi value return hogi
 // val1 = undefined??16
-val1 = null??10??20
+val1 = null??undefined??20
+console.log(val1);  //20
 
-console.log(val1);
+console.log(val1);  //20
 
 // ternary operator
 
