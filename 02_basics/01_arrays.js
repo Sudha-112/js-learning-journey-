@@ -7,7 +7,7 @@ const myArr2 = new Array(1,2,3,4);
 console.log(typeof myArr);   // object
 console.log(typeof myArr2);  // object
 
-console.log(myArr2[3]);
+console.log(myArr2[3]);  //4
 
 //Array methods
 
@@ -16,12 +16,13 @@ myArr.pop();   // pop from the end
 myArr.unshift(9); // push at the first
 myArr.shift(); // pop from the first
 
-console.log(myArr.includes(4));
-console.log(myArr.indexOf(3));
+console.log(myArr.includes(4));  // true
+console.log(myArr.indexOf(3));   //  3
 
 const newArr = myArr.join();
-console.log(myArr);
+console.log(myArr);    //[0,1,2,3,4,5]
 console.log(typeof newArr);  // string
+console.log(newArr);
 
 // slice and splice
 
