@@ -18,4 +18,5 @@
 
 // === strict check (it checks values and their datatypes too)
 
-console.log("2" === 2);
+console.log("2" === 2);  // false
+console.log("2" == 2); // true
