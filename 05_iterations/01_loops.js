@@ -1,6 +1,6 @@
 //for loop
 
-for(let i = 0; i < 10; i++){
+for(let i = 0; i < 5; i++){
     console.log(i);  
 }
 
@@ -35,7 +35,7 @@ for(const num of arr){
 
 const name = "sudha";
 
-for(const num of name){
+for(const num of name){   // hr baar new num variable bn rha hai and pehle wala destroy ho jata hai
     console.log(num);
 }
 
