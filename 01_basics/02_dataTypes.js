@@ -22,3 +22,4 @@ let isLoggedIn = false   // isLoggedIn is boolean
 console.log(typeof name); // string
 console.log(typeof null);  // object
 console.log(typeof undefined);  // undefined
+console.log(null == undefined);  // true
