@@ -24,7 +24,7 @@ if(Object.keys(emptyObject).length === 0){
 
 let val1;
 // val1 = 5??10
-// val1 = null??10
+// val1 = null??10  // agr value null ya undefined hai to second value hi return hogi vrna vhi value return hogi
 // val1 = undefined??16
 val1 = null??10??20
 
