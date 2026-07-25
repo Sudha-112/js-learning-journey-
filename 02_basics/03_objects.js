@@ -23,7 +23,8 @@ const JsUser = {
 console.log(JsUser.name);
 console.log(JsUser["name"]);
 console.log(JsUser["full-name"]);
-console.log(JsUser[mySym]);
+console.log(JsUser[mySym]);  //myKey1
+console.log(typeof JsUser[mySym]);   //string
 
 JsUser.email = "sushma@gmail.com";
 // Object.freeze(JsUser); // no changes will be propagated after this
