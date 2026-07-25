@@ -16,10 +16,10 @@ console.log(gameName.indexOf('d'));
 //Strings are immutable in js and string methods return new string,
 // they don't change the original string
 
-const newString = gameName.substring(0,5);
+const newString = gameName.substring(0,5);  // includes start and end
 console.log(newString);
 
-const anotherString = gameName.slice(-11);
+const anotherString = gameName.slice(-11);  // includes start only not end 
 console.log(anotherString);
 
 const newStringOne = "   sudha   ";
