@@ -33,7 +33,7 @@ function printMe(item){
     console.log(item);
 }
 
-coding.forEach(printMe);
+coding.forEach(printMe);  // function definition is passed only
 
 coding.forEach( (item, index, arr) => {
    console.log(item, index, arr);
@@ -56,4 +56,3 @@ const myCoding = [
 myCoding.forEach( (item) => {
       console.log(item.language);
 })
-
