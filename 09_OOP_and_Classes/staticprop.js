@@ -15,7 +15,7 @@ class User{
 }
 
 const userOne = new User("swati");
-// console.log(userOne.createId());
+// console.log(userOne.createId());  //error
 
 class Sudha extends User{
     constructor(username, password){
@@ -27,4 +27,4 @@ class Sudha extends User{
 
 const sudha = new Sudha("aman", "111");
 console.log(sudha.logMe());
-// console.log(sudha.createId());
+// console.log(sudha.createId()); //error
