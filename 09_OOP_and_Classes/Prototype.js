@@ -52,7 +52,7 @@ console.log(Teacher.email);  //sudha@gmail.com
 
 Object.setPrototypeOf(TeachingSupport, Teacher);// TeachingSupport access all properties of Teacher
 
-let anotherUsername = "sudha    ";
+let anotherUsername = "       sudha    ";
 
 String.prototype.trueLength = function(){
     console.log(`${this}`);//this = jisne call kiya
