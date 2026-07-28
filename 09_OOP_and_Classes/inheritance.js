@@ -31,3 +31,7 @@ console.log(teacher);
 console.log(teacher.logMe());
 console.log(teacher.addCourse());
 console.log(teacher instanceof User); 
+
+//Instance = class (blueprint) se new keyword ke through banaya gaya ek actual,
+//  real object — jisme apna independent data hota hai,
+//  lekin class ke methods sab instances ke beech share hote hain.
