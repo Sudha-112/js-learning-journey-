@@ -16,7 +16,7 @@ console.log(userOne.logMe());
 class Teacher extends User{
    
     constructor(username, email, password){
-        super(username);
+        super(username);  // calling constructor of parent class
         this.email = email;
         this.password = password;
     }
