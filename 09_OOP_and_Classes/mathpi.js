@@ -1,9 +1,9 @@
 const descriptor = Object.getOwnPropertyDescriptor(Math, "PI")
 
-// console.log(descriptor);
-// console.log(Math.PI);
-// Math.PI = 5;
-// console.log(Math.PI);
+console.log(descriptor);
+console.log(Math.PI);
+Math.PI = 5;
+console.log(Math.PI);
 
 const chai = {
     name: "ginger tea",
@@ -33,3 +33,8 @@ for(let [key, value] of Object.entries(chai)){
     }
     
 }
+
+//Object.getOwnPropertyDescriptor() kisi property ki sirf value hi nahi, 
+// balki uske "behavior rules" (writable, enumerable, configurable) bhi batata hai 
+//  jo normally object banate waqt sab true (fully flexible) hoti hain,
+//  jab tak Object.defineProperty() se manually restrict na kiya jaaye.
