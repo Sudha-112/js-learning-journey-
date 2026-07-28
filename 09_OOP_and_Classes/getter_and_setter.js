@@ -46,3 +46,8 @@ const userOne = new User("seema@gmail.com", "111abc2");
 console.log(userOne.password);
 console.log(userOne.email);
 console.log(userOne); 
+
+//Getter/Setter aise special methods hain
+//jo property jaise dikhte hain lekin actually function hote hain 
+// — jab property READ karo tab get chalta hai, aur jab property SET (assign) karo tab set chalta hai 
+// — isse validation, transformation, ya computed values jaise powerful features possible hote hain.
