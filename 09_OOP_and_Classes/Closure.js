@@ -3,7 +3,7 @@ function makeFunc(){
     function displayName(){
         console.log(name);
     }
-    return displayName;
+    return displayName;  // here closure works
 }
 
 const myFunc = makeFunc();  // displayName func ke saath saath uska lexical scope bhi return hoga
